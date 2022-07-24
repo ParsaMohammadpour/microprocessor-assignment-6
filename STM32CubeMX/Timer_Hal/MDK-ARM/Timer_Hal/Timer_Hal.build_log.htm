@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: parsa m, r, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  D:\Keil\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\parsa\Desktop\Riz\6th-Assignment\STM32Cube-MX\Timer_Hal\MDK-ARM\Timer_Hal.uvprojx
+Project File Date:  04/01/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Timer_Hal'
+compiling main.c...
+../Core/Src/main.c(134): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, SET1(0) & data);
+../Core/Src/main.c(135): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, SET1(1) & data);
+../Core/Src/main.c(136): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, SET1(2) & data);
+../Core/Src/main.c(137): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, SET1(3) & data);
+../Core/Src/main.c(138): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, SET1(4) & data);
+../Core/Src/main.c(139): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, SET1(5) & data);
+../Core/Src/main.c(140): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, SET1(6) & data);
+../Core/Src/main.c(141): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, SET1(7) & data);
+../Core/Src/main.c(142): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, 1); // RS
+../Core/Src/main.c(143): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, 0); // RW
+../Core/Src/main.c(144): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, 1); // E
+../Core/Src/main.c(145): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, 0); // E
+../Core/Src/main.c(159): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, SET1(0) & command);
+../Core/Src/main.c(160): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, SET1(1) & command);
+../Core/Src/main.c(161): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_2, SET1(2) & command);
+../Core/Src/main.c(162): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3, SET1(3) & command);
+../Core/Src/main.c(163): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, SET1(4) & command);
+../Core/Src/main.c(164): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, SET1(5) & command);
+../Core/Src/main.c(165): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, SET1(6) & command);
+../Core/Src/main.c(166): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, SET1(7) & command);
+../Core/Src/main.c(167): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_10, 0); // RS
+../Core/Src/main.c(168): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9, 0); // RW
+../Core/Src/main.c(169): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, 1); // E
+../Core/Src/main.c(170): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8, 0); // E
+../Core/Src/main.c: 24 warnings, 0 errors
+linking...
+Program Size: Code=6478 RO-data=454 RW-data=20 ZI-data=1788  
+FromELF: creating hex file...
+"Timer_Hal\Timer_Hal.axf" - 0 Error(s), 24 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
+                Keil.STM32F4xx_DFP.2.16.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Timer_Hal
+  C:\Users\parsa\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\parsa\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

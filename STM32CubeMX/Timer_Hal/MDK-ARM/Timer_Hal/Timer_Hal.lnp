@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"timer_hal\startup_stm32f401xe.o"
+"timer_hal\main.o"
+"timer_hal\stm32f4xx_it.o"
+"timer_hal\stm32f4xx_hal_msp.o"
+"timer_hal\stm32f4xx_hal_tim.o"
+"timer_hal\stm32f4xx_hal_tim_ex.o"
+"timer_hal\stm32f4xx_hal_rcc.o"
+"timer_hal\stm32f4xx_hal_rcc_ex.o"
+"timer_hal\stm32f4xx_hal_flash.o"
+"timer_hal\stm32f4xx_hal_flash_ex.o"
+"timer_hal\stm32f4xx_hal_flash_ramfunc.o"
+"timer_hal\stm32f4xx_hal_gpio.o"
+"timer_hal\stm32f4xx_hal_dma_ex.o"
+"timer_hal\stm32f4xx_hal_dma.o"
+"timer_hal\stm32f4xx_hal_pwr.o"
+"timer_hal\stm32f4xx_hal_pwr_ex.o"
+"timer_hal\stm32f4xx_hal_cortex.o"
+"timer_hal\stm32f4xx_hal.o"
+"timer_hal\stm32f4xx_hal_exti.o"
+"timer_hal\system_stm32f4xx.o"
+--strict --scatter "Timer_Hal\Timer_Hal.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Timer_Hal.map" -o Timer_Hal\Timer_Hal.axf
